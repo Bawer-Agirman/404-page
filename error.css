@@ -1,0 +1,68 @@
+a.bouton {
+    background-color: #1c87c9;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 4px 2px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: green;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: url("noir.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* l'animation*/
+h1:hover {
+
+    animation: colorchange 1s;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}
+
+@keyframes colorchange {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: purple;
+    }
+}
